@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			fibonacci
+		</title>
+	</head>
+	
+	<body>
+		<script>
+		var ilk = 0;
+		var son = 1;
+		var Fibonacci = 0;
+		
+		for(var i = 0; i<5; i++){
+		Fibonacci = ilk+son;
+		ilk = son;
+		son = Fibonacci;
+		
+		console.log( 'ilk deyer '+ilk ,"Fibonacci "+Fibonacci)
+		}
+		
+		</script>
+	</body>
+</html>
